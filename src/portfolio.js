@@ -1,110 +1,96 @@
-﻿
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  title: "Hi all, I'm Ehsan",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web with Spring Boot / MongoDB / Multi Tenant / Microservice and some other cool libraries and frameworks."),
+  resumeLink: "https://jobinja.ir/user/ehsanrafee"
 };
 
 // Your Social Media Link
-
 const socialMediaLinks = {
-
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/ehsanera",
+  linkedin: "https://www.linkedin.com/in/ehsan-rafee-00885049/",
+  gmail: "ehsan.rafee.gk@gmail.com",
+  gitlab: "https://gitlab.com/ehsanera",
+  facebook: "https://www.facebook.com/ehsan.rafee",
+  medium: "https://medium.com/@ehsan.rafee.gk ",
+  stackoverflow: "https://stackoverflow.com/users/6892681/ehsan",
+  instagram: "https://instagram.com/ehsanera",
+  twitter: "https://twitter.com/ehsan_era"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
-
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PROJECT MANAGER AND SERVER DEVELOPER. ACTIVE, PASSIONATE, FLEXIBLE AND CHALLENGING.",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Manage Project With Flexibility and agility."),
+    emoji("⚡ Develop Server Side Application with high Level Technology"),
+    emoji("⚡ Familiar with the latest technologies in the world such as microservice and multi tenant.")
   ],
-
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "css3",
+      skillName: "SysAdmin",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Microservice",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "Spring Boot",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Multi Tenant",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-database"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "TSql",
+      fontAwesomeClassname: "fab fa-database"
     },
     {
-      skillName: "npm",
+      skillName: "ORM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "IntellijIDEA",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "Security",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Docker",
+      fontAwesomeClassname: "fas fa-docker"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ]
 };
 
 // Your education background
-
 const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Isfahan University Jahad Higher Education Institute",
+      logo: require("./assets/images/jahad-logo.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
@@ -114,8 +100,8 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Islamic Azad University of Shahin Shahr",
+      logo: require("./assets/images/azad-logo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -127,7 +113,6 @@ const educationInfo = {
 }
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -153,10 +138,10 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Project Manage",
+      company: "Zamin",
+      companyLogo: require("./assets/images/zamin-logo.png"),
+      date: "Apr 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -164,17 +149,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Full Stack Web Developer",
+      company: "Kasra",
+      companyLogo: require("./assets/images/kasra-logo.jpeg"),
+      date: "Mar 2017 – Apr 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Full Stack Web Developer",
+      company: "Freelance",
+      companyLogo: require("./assets/images/freelance_logo.png"),
+      date: "Mar 2016 – Mar 2017",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
   ]
@@ -185,7 +170,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "ehsanera", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -210,10 +195,8 @@ const bigProjects = {
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achievementsCards: [
     {
       title: "Google Code-In Finalist",
@@ -247,10 +230,8 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -282,8 +263,8 @@ const talkSection = {
 };
 
 // Podcast Section
-
 const podcastSection = {
+  viewPodcastSection: false,
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
@@ -294,15 +275,13 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+98-9135763109",
+  email_address: "ehsan.rafee.gk@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-
+  userName : "ehsan_era"//Replace "twitter" with your twitter username without @
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

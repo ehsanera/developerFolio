@@ -1,13 +1,13 @@
 import React, {useContext} from "react";
 import "./WorkExperience.css";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import { workExperiences } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {workExperiences} from "../../portfolio";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
     const {isDark} = useContext(StyleContext)
-    if(workExperiences.viewExperiences){
+    if (workExperiences.viewExperiences) {
         return (
             <div id="experience">
                 <Fade bottom duration={1000} distance="20px">
@@ -23,7 +23,7 @@ export default function WorkExperience() {
                                         company: card.company,
                                         desc: card.desc,
                                         date: card.date,
-                                        companylogo: card.companylogo,
+                                        companyLogo: card.companyLogo,
                                         role: card.role,
                                         descBullets: card.descBullets
                                     }}
