@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8681be2aeae5e86378db1b60e3158fda",
+    "revision": "5ca64debaebe79253cd0cb9c1a3d7241",
     "url": "/index.html"
   },
   {
-    "revision": "ddf9710cf206f2e88ab4",
+    "revision": "50794630df6f4e6e0a3b",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "c656872fd712af898e83",
+    "revision": "97170f53d4b8c3767966",
     "url": "/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "e1c6705cb3004a89c74b",
-    "url": "/static/css/main.bd4e58e4.chunk.css"
+    "revision": "ee7f351f52c16885e3de",
+    "url": "/static/css/main.9723e3bd.chunk.css"
   },
   {
-    "revision": "c2265d6f8da2ba7b753c",
-    "url": "/static/js/2.f032ff06.chunk.js"
+    "revision": "493b3a0bce319142ad6a",
+    "url": "/static/js/2.4091affe.chunk.js"
   },
   {
-    "revision": "ddf9710cf206f2e88ab4",
-    "url": "/static/js/3.58092917.chunk.js"
+    "revision": "50794630df6f4e6e0a3b",
+    "url": "/static/js/3.c5f43062.chunk.js"
   },
   {
-    "revision": "c656872fd712af898e83",
-    "url": "/static/js/4.80c9fe9a.chunk.js"
+    "revision": "97170f53d4b8c3767966",
+    "url": "/static/js/4.ee961670.chunk.js"
   },
   {
-    "revision": "e1c6705cb3004a89c74b",
-    "url": "/static/js/main.ef6644a5.chunk.js"
+    "revision": "ee7f351f52c16885e3de",
+    "url": "/static/js/main.aa2255d3.chunk.js"
   },
   {
-    "revision": "f2866d1b5d3be2b10577",
-    "url": "/static/js/runtime-main.dede9a1b.js"
+    "revision": "0f0c010d90d74d69e1b0",
+    "url": "/static/js/runtime-main.1d374092.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
+    "revision": "c25df83bd8cbe238ab2ad6f9fb36882c",
+    "url": "/static/media/balonet-logo.c25df83b.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
     "url": "/static/media/facebookLogo.8ddf76a1.png"
+  },
+  {
+    "revision": "9b1edf36c5ce4de8aaa437dca6afa7bf",
+    "url": "/static/media/freelance_logo.9b1edf36.png"
   },
   {
     "revision": "c24ba79111a90758a3a472a906ab2901",
