@@ -1,5 +1,2 @@
----
-title: robots
----
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Sitemap: <{{site.url}}/sitemap.xml>
