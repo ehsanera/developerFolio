@@ -7,7 +7,7 @@ const greeting = {
     /* Your Summary And Greeting Section */
     username: "Ehsan Rafee",
     title: "Hi all, I'm Ehsan",
-    subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web with Spring Boot / MongoDB / Multi Tenant / Microservice and some other cool libraries and frameworks."),
+    subTitle: emoji("Software engineer for +5 years, experienced with over 20+ projects,  with different experienced in Backend/DevOps/Agile/Project Management."),
     resumeLink: "https://jobinja.ir/user/ehsanrafee"
 };
 
@@ -158,46 +158,33 @@ const workExperiences = {
     viewExperiences: true, //Set it to true to show workExperiences Section
     experience: [
         {
-            role: "Project Manager",
+            role: "Senior Backend Developer / Team Leader",
             company: "Zamin",
             companyLogo: require("./assets/images/zamin-logo.png"),
             date: "Apr 2018 – Present",
-            desc: "Console project management, side projects, balonet bots and balonet server side.",
-            descBullets: [
-                "Kotlin",
-                "MongoDB / PostgresSQL",
-                "Multi Tenant",
-                "Microservice",
-                "Web Socket",
-                "Rest Api",
-            ]
+            desc: "When I first joined Zamin Company, I joined as a junior developer, and very quickly I was promoted to senior developer, and then to the leader back team and project manager.\n" +
+                "During my time with the company, I completed a number of projects and gained great experience, doing bot projects, sophisticated reporting systems, and multi-tenant projects and cloud management.\n" +
+                "The languages of Kotlin, Docker, Multi-Tenancy, PostgreSQL, Mongo Db, Redis, Linux, Olap Cube, Jira, Team Management, Scrum, were some of the things I mastered.",
         },
         {
-            role: "Full Stack Web Developer",
+            role: "Full Stack Developer",
             company: "Kasra",
             companyLogo: require("./assets/images/kasra-logo.jpeg"),
             date: "Mar 2017 – Apr 2018",
-            desc: "Managing and programming patch installation project, web front and back programmer and database.",
-            descBullets: [
-                "Web Form",
-                ".NET MVC",
-                "jQuery",
-                "Windows Form",
-                "TSql",
-                "Web Service",
-            ]
+            desc: "At Kasra Company, I had experience working in a team and a large company, I learned Scrum Agile, I worked with many people, several internal teams of the company, as well as various projects.\n" +
+                "At the beginning of the project, I was given a patch installation that had remained in the production team for years and various developers had not been able to do it, but fortunately I was able to modify and operate it, the technology used in this project was C# and It was a web form.\n" +
+                "I also collaborated on the analysis and implementation of several subsystems that were implemented within the company's core system that used .NET Form and jQuery technology.\n" +
+                "And a .NET Core project.\n" +
+                "The database technology of all projects was SQL Server.",
         },
         {
-            role: "Full Stack Web Developer",
-            company: "Freelance",
+            role: "Founder",
+            company: "Negah No",
             companyLogo: require("./assets/images/freelance_logo.png"),
             date: "Mar 2016 – Mar 2017",
-            desc: "Various .NET MVC programming projects.",
-            descBullets: [
-                ".NET MVC",
-                "Sql Server",
-                "Bootstrap",
-            ]
+            desc: "New Look was a startup in the field of cinema that my close friend and I started together and then I finished it alone.\n" +
+                "The new look was dissolved after two years.\n" +
+                "This project was written with ASP .NET MVC and Bootstrap was used for Front.",
         },
     ]
 };
