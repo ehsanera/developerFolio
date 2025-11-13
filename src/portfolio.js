@@ -23,7 +23,8 @@ const greeting = {
   username: "Ehsan Rafee",
   title: "Hi all, I'm ehsan",
   subTitle: emoji(
-    "As a seasoned Software Engineer with over 7 years of experience 🚀, I specialize in designing and implementing highly scalable API-based solutions with a focus on improving performance. My biggest achievements include creating efficient systems that have significantly improved business operations for various clients. With expertise in SQL databases, and clean architecture, my analytical thinking and problem-solving skills are second to none."
+    "Experienced Backend Engineer with over 8 years of expertise in designing , developing, and maintaining scalable, high performance software systems🚀. Skilled in microservices architecture, financial exchange systems, and implementing\n" +
+    "secure, reliable backend solutions. Adept at collaborating with cross-functional teams to deliver innovative solutions"
   ),
   resumeLink:
     "https://www.cakeresume.com/s--F7fCGZnY-rgyMap6mYWFyg--/ehsan-rafee", // Set to empty to hide the button
@@ -70,27 +71,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Spring Boot",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "C#",
-      fontAwesomeClassname: "fab fa-c"
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "Asp.Net",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "Multi Tenancy",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "Hibernate",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fas fa-layer-group"
     },
     {
       skillName: "Design Pattern",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
       skillName: "Linux",
@@ -98,23 +91,23 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fas fa-docker"
+      fontAwesomeClassname: "fas fa-box"
     },
     {
       skillName: "Golang",
-      fontAwesomeClassname: "fab fa-golang"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "Git",
-      fontAwesomeClassname: "fas fa-git"
+      fontAwesomeClassname: "fab fa-git"
     },
     {
       skillName: "Sql/NoSql",
-      fontAwesomeClassname: "fab fa-database"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Redis",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -158,56 +151,58 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Java", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Java" //Insert stack or technology you have experience in
     },
     {
-      Stack: "C#",
-      progressPercentage: "70%"
+      Stack: "Kotlin"
     },
     {
-      Stack: "Postgres",
-      progressPercentage: "60%"
+      Stack: "GoLang"
     },
     {
-      Stack: "Sql Server",
-      progressPercentage: "60%"
+      Stack: "Spring Boot"
     },
     {
-      Stack: "Redis",
-      progressPercentage: "60%"
+      Stack: "Spring Cloud"
     },
     {
-      Stack: "Spring Boot",
-      progressPercentage: "60%"
+      Stack: ".NET"
     },
     {
-      Stack: "Spring Security",
-      progressPercentage: "60%"
+      Stack: "Sql/NoSql"
     },
     {
-      Stack: "Spring Jpa",
-      progressPercentage: "60%"
+      Stack: "Redis"
     },
     {
-      Stack: "Spring Data",
-      progressPercentage: "60%"
+      Stack: "Docker"
     },
     {
-      Stack: "Spring Cloud",
-      progressPercentage: "60%"
+      Stack: "RabbitMQ"
     },
     {
-      Stack: "Asp.net",
-      progressPercentage: "60%"
+      Stack: "Linux"
     },
     {
-      Stack: "Linux",
-      progressPercentage: "60%"
+      Stack: "Microservices"
     },
     {
-      Stack: "Docker",
-      progressPercentage: "60%"
+      Stack: "Clean Architecture"
+    },
+    {
+      Stack: "Design Patterns"
+    },
+    {
+      Stack: "Multi-Tenancy"
+    },
+    {
+      Stack: "Git"
+    },
+    {
+      Stack: "CI/CD"
+    },
+    {
+      Stack: "System Design"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -220,32 +215,41 @@ const workExperiences = {
   experience: [
     {
       role: "Backend Engineer",
+      company: "Next Top Tech",
+      companylogo: require("./assets/images/next_top_tech_logo.jpeg"),
+      date: "March 2024 – November 2025",
+      desc: "Next Top Tech is a leader in financial exchange systems. As a backend software engineer, I specialize in designing and\n" +
+        "implementing critical backend services for financial transactions, ensuring high availability, scalability, and secure data\n" +
+        "processing. Key contributions include:",
+      descBullets: [
+        "Designed and implemented core components of a robust financial exchange system using .NET Core.",
+        "Developed backend services to streamline transaction workflows, ensuring high availability and scalability.",
+        "Integrated Elasticsearch APM for real-time performance monitoring and debugging.",
+        "Designed efficient logging mechanisms to improve system observability and troubleshooting.",
+        "Collaborated with cross-functional teams to enhance system performance and reliability.",
+        "Optimized data processing pipelines, achieving a 25% increase in transaction efficiency."
+      ]
+    },
+    {
+      role: "Backend Engineer",
       company: "Today",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Development of high-load systems in the field of physical access management and maintenance of existing systems.",
+      companylogo: require("./assets/images/nxworkplace_logo.jpeg"),
+      date: "March 2023 – March 2024",
+      desc: "Today Company is a leader in microservices for controlling and optimizing the movement of goods, people, cars, and customers. As a\n" +
+        "backend engineer at Today, I play a crucial role in developing microservices that utilize fingerprint and facial recognition technologies to\n" +
+        "efficiently manage and secure all forms of traffic. Key contributions during my tenure at Today include:\n",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Maintained and upgraded legacy systems while transitioning to modern technologies.",
+        "Improved system performance by 40% across all sales and mediation processes.",
+        "Conducted business analysis to align system upgrades with organizational goals.",
+        "Successfully designed and implemented a new B2B and B2C insurance service platform."
       ]
     },
     {
-      role: "Backend Engineer Java",
-      company: "Shenazh ",
-      companylogo: require("./assets/images/shenazh.webp"),
-      date: "May 2022 - Apr 2023 · 1 yr",
-      desc: "As a part-time software engineer at Shenazh, a construction startup that serves as a marketplace intermediary, my main responsibilities included:",
-      descBullets: [
-        "- Building and managing a technical team, fostering a collaborative work environment, and ensuring high-quality work.",
-        "- Conducting technical analysis of business demands and end-users, ensuring that the product met the needs of all stakeholders.",
-        "- Implementing the backend system, ensuring that the system was scalable, efficient, and met the needs of the users."
-      ]
-    },
-    {
-      role: "Backend Engineer .net",
+      role: "Backend Engineer",
       company: "Bimer ",
       companylogo: require("./assets/images/bimer.png"),
-      date: "May 2022 - Apr 2023 · 1 yr",
+      date: "March 2022 - March 2023",
       desc: "As a software engineer at Bimer, acting as an intermediary between insurance providers and insurance sellers, as well as direct sales to the user, my main responsibilities are:",
       descBullets: [
         "- The dot net framework was successfully upgraded from version 3.1 to 6, ensuring compatibility and using new features for enhanced functionality.",
@@ -256,10 +260,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Backend Engineer Java",
+      role: "Backend Engineer",
       company: "Zamin ",
       companylogo: require("./assets/images/balonet.png"),
-      date: "Apr 2018 - Mar 2022 · 4 yrs",
+      date: "April 2018 - March 2022",
       desc: "Zamin Company is a single-product software company specializing in Balonet, a professional messenger. As a software engineer with the company, my primary focus was on the development of messaging and management systems, as well as the core product. Some of my key contributions include:",
       descBullets: [
         "- Streamlined the distribution process of Balonet's white-label manufacturing and sales by architecting and developing a cloud management system, resulting in higher efficiency and faster time to market.",
@@ -270,27 +274,15 @@ const workExperiences = {
       ]
     },
     {
-      role: "Backend Engineer .net",
+      role: "Backend Engineer",
       company: "Kasra",
       companylogo: require("./assets/images/kasra.jpg"),
-      date: "Mar 2017 - Feb 2018 · 1 yr",
+      date: "March 2016 - February 2018",
       desc: "As a software company with a long-standing reputation, Kasra specializes in office automation, traffic automation, and feeding solutions. Here are some of the key projects I contributed to during my time with the company:",
       descBullets: [
         "- Successfully implemented an offline patch installation project for the support team and end-users, ensuring seamless software updates without internet connectivity.",
         "- Developed a guest subsystem for traffic automation, improving the user experience and streamlining the system's functionality.",
         "- Collaborated with the artificial intelligence team to integrate a dashboard system with Power BI into the main system, providing real-time data visualization and analysis for stakeholders."
-      ]
-    },
-    {
-      role: "Junior Backend Developer .net",
-      company: "Freelancer ",
-      companylogo: require("./assets/images/freelancer.jpg"),
-      date: "Mar 2016 - Feb 2017 · 1 yr",
-      desc: "My experience as a Backend Developer freelancer has allowed me to work on a variety of projects using a range of technologies. Some of my notable achievements include:",
-      descBullets: [
-        "- Developing the NegahNo websi,te project, which focused on best practices of Asp.net MVC, SQL database, and Bootstrap in the film and cinema industry.",
-        "- Building a web-based platform for bridge maintenance using SQL Server and Asp.net MVC.",
-        "- Creating software to manage the internal processes of a small company using Sql Lite and Windows Form."
       ]
     }
   ]
@@ -311,25 +303,35 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bimer.png"),
+      projectName: "Bimer Insurance Platform",
+      projectDesc: "Developed a comprehensive insurance platform connecting insurance providers and sellers, featuring .NET 7 backend with Postgres SQL database and 40% performance optimization",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://bimer.ir/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/balonet.png"),
+      projectName: "Balonet Messenger",
+      projectDesc: "Contributed to the development of a professional messenger platform, including cloud management system, custom dashboards, and bot framework development",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://balonet.ir/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/shenazh.webp"),
+      projectName: "Shenazh Construction Marketplace",
+      projectDesc: "Built a marketplace platform for construction services, implementing scalable backend systems and technical team management",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://shenazh.com/"
         }
       ]
     }
@@ -347,11 +349,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "TASK-ORIENTED BOOTCAMP IN SOFTWARE ENGINEERING WITH GOLANG",
+      image: require("./assets/images/6b80237c5a499c9c9116be76fe09b189.jpg"),
+      imageAlt: "Quera Code-In Logo",
       footerLink: [
         {
           name: "Certification",
@@ -362,35 +362,21 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
-          name: "Google Code-in Blog",
+          name: "Quera Code-in",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Maintaining Security in Online Stores: Moving from Biometric to Behaviometric",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Issued by Sharif University of Technology - International Campus-Kish Island",
+      image: require("./assets/images/logo ok -white.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
@@ -419,7 +405,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -438,7 +424,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -451,7 +437,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
